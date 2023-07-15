@@ -1,0 +1,16 @@
+
+<table border="1">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Email</th>
+    <th>SalesVolume</th>
+  </tr>
+  <!-- for(let element of salesPersonList) -->
+  <tr *ngFor="let element of salesPersonList">
+    <td>{{element.firstname}}</td>
+    <td>{{element.lastname}}</td>
+    <td>{{element.email}}</td>
+    <td>{{element.salesVolume}}</td>
+  </tr>
+</table>
